@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB5AAF901F42E30800A9CBAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5AAF8F1F42E30800A9CBAC /* main.m */; };
+		EB5AAF931F42E30800A9CBAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5AAF921F42E30800A9CBAC /* AppDelegate.m */; };
+		EB5AAF961F42E30800A9CBAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5AAF951F42E30800A9CBAC /* ViewController.m */; };
+		EB5AAF991F42E30800A9CBAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5AAF971F42E30800A9CBAC /* Main.storyboard */; };
+		EB5AAF9B1F42E30800A9CBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5AAF9A1F42E30800A9CBAC /* Assets.xcassets */; };
+		EB5AAF9E1F42E30800A9CBAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5AAF9C1F42E30800A9CBAC /* LaunchScreen.storyboard */; };
+		EB5AAFBA1F46D27800A9CBAC /* NSArray+GLDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5AAFB71F46D27800A9CBAC /* NSArray+GLDeepCopy.m */; };
+		EB5AAFBB1F46D27800A9CBAC /* NSDictionary+GLDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5AAFB91F46D27800A9CBAC /* NSDictionary+GLDeepCopy.m */; };
+		EB5AAFBF1F46E70300A9CBAC /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5AAFBE1F46E70300A9CBAC /* PersonModel.m */; };
+		EB5AAFC21F46E7F700A9CBAC /* Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5AAFC11F46E7F700A9CBAC /* Anima.m */; };
+		EB5AAFC51F4A7DA300A9CBAC /* NSSet+GLDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5AAFC41F4A7DA300A9CBAC /* NSSet+GLDeepCopy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB5AAF8B1F42E30800A9CBAC /* GLDeepCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLDeepCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5AAF8F1F42E30800A9CBAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB5AAF911F42E30800A9CBAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB5AAF921F42E30800A9CBAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB5AAF941F42E30800A9CBAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB5AAF951F42E30800A9CBAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB5AAF981F42E30800A9CBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB5AAF9A1F42E30800A9CBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB5AAF9D1F42E30800A9CBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB5AAF9F1F42E30800A9CBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB5AAFB61F46D27800A9CBAC /* NSArray+GLDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+GLDeepCopy.h"; sourceTree = "<group>"; };
+		EB5AAFB71F46D27800A9CBAC /* NSArray+GLDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GLDeepCopy.m"; sourceTree = "<group>"; };
+		EB5AAFB81F46D27800A9CBAC /* NSDictionary+GLDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GLDeepCopy.h"; sourceTree = "<group>"; };
+		EB5AAFB91F46D27800A9CBAC /* NSDictionary+GLDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GLDeepCopy.m"; sourceTree = "<group>"; };
+		EB5AAFBD1F46E70300A9CBAC /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		EB5AAFBE1F46E70300A9CBAC /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
+		EB5AAFC01F46E7F700A9CBAC /* Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Anima.h; sourceTree = "<group>"; };
+		EB5AAFC11F46E7F700A9CBAC /* Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anima.m; sourceTree = "<group>"; };
+		EB5AAFC31F4A7DA300A9CBAC /* NSSet+GLDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+GLDeepCopy.h"; sourceTree = "<group>"; };
+		EB5AAFC41F4A7DA300A9CBAC /* NSSet+GLDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+GLDeepCopy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB5AAF881F42E30800A9CBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB5AAF821F42E30800A9CBAC = {
+			isa = PBXGroup;
+			children = (
+				EB5AAF8D1F42E30800A9CBAC /* GLDeepCopy */,
+				EB5AAF8C1F42E30800A9CBAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB5AAF8C1F42E30800A9CBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB5AAF8B1F42E30800A9CBAC /* GLDeepCopy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB5AAF8D1F42E30800A9CBAC /* GLDeepCopy */ = {
+			isa = PBXGroup;
+			children = (
+				EB5AAF911F42E30800A9CBAC /* AppDelegate.h */,
+				EB5AAF921F42E30800A9CBAC /* AppDelegate.m */,
+				EB5AAF941F42E30800A9CBAC /* ViewController.h */,
+				EB5AAF951F42E30800A9CBAC /* ViewController.m */,
+				EB5AAFBD1F46E70300A9CBAC /* PersonModel.h */,
+				EB5AAFBE1F46E70300A9CBAC /* PersonModel.m */,
+				EB5AAFC01F46E7F700A9CBAC /* Anima.h */,
+				EB5AAFC11F46E7F700A9CBAC /* Anima.m */,
+				EB5AAFB51F46D27800A9CBAC /* GLDeepCopyCategory */,
+				EB5AAF971F42E30800A9CBAC /* Main.storyboard */,
+				EB5AAF9A1F42E30800A9CBAC /* Assets.xcassets */,
+				EB5AAF9C1F42E30800A9CBAC /* LaunchScreen.storyboard */,
+				EB5AAF9F1F42E30800A9CBAC /* Info.plist */,
+				EB5AAF8E1F42E30800A9CBAC /* Supporting Files */,
+			);
+			path = GLDeepCopy;
+			sourceTree = "<group>";
+		};
+		EB5AAF8E1F42E30800A9CBAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB5AAF8F1F42E30800A9CBAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB5AAFB51F46D27800A9CBAC /* GLDeepCopyCategory */ = {
+			isa = PBXGroup;
+			children = (
+				EB5AAFB61F46D27800A9CBAC /* NSArray+GLDeepCopy.h */,
+				EB5AAFB71F46D27800A9CBAC /* NSArray+GLDeepCopy.m */,
+				EB5AAFB81F46D27800A9CBAC /* NSDictionary+GLDeepCopy.h */,
+				EB5AAFB91F46D27800A9CBAC /* NSDictionary+GLDeepCopy.m */,
+				EB5AAFC31F4A7DA300A9CBAC /* NSSet+GLDeepCopy.h */,
+				EB5AAFC41F4A7DA300A9CBAC /* NSSet+GLDeepCopy.m */,
+			);
+			path = GLDeepCopyCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB5AAF8A1F42E30800A9CBAC /* GLDeepCopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB5AAFA21F42E30800A9CBAC /* Build configuration list for PBXNativeTarget "GLDeepCopy" */;
+			buildPhases = (
+				EB5AAF871F42E30800A9CBAC /* Sources */,
+				EB5AAF881F42E30800A9CBAC /* Frameworks */,
+				EB5AAF891F42E30800A9CBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLDeepCopy;
+			productName = GLDeepCopy;
+			productReference = EB5AAF8B1F42E30800A9CBAC /* GLDeepCopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB5AAF831F42E30800A9CBAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "高磊";
+				TargetAttributes = {
+					EB5AAF8A1F42E30800A9CBAC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EB5AAF861F42E30800A9CBAC /* Build configuration list for PBXProject "GLDeepCopy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB5AAF821F42E30800A9CBAC;
+			productRefGroup = EB5AAF8C1F42E30800A9CBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB5AAF8A1F42E30800A9CBAC /* GLDeepCopy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB5AAF891F42E30800A9CBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5AAF9E1F42E30800A9CBAC /* LaunchScreen.storyboard in Resources */,
+				EB5AAF9B1F42E30800A9CBAC /* Assets.xcassets in Resources */,
+				EB5AAF991F42E30800A9CBAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB5AAF871F42E30800A9CBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5AAFBF1F46E70300A9CBAC /* PersonModel.m in Sources */,
+				EB5AAFC51F4A7DA300A9CBAC /* NSSet+GLDeepCopy.m in Sources */,
+				EB5AAFC21F46E7F700A9CBAC /* Anima.m in Sources */,
+				EB5AAF961F42E30800A9CBAC /* ViewController.m in Sources */,
+				EB5AAF931F42E30800A9CBAC /* AppDelegate.m in Sources */,
+				EB5AAFBA1F46D27800A9CBAC /* NSArray+GLDeepCopy.m in Sources */,
+				EB5AAF901F42E30800A9CBAC /* main.m in Sources */,
+				EB5AAFBB1F46D27800A9CBAC /* NSDictionary+GLDeepCopy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB5AAF971F42E30800A9CBAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB5AAF981F42E30800A9CBAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB5AAF9C1F42E30800A9CBAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB5AAF9D1F42E30800A9CBAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB5AAFA01F42E30800A9CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB5AAFA11F42E30800A9CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB5AAFA31F42E30800A9CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GLDeepCopy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gao.GLDeepCopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB5AAFA41F42E30800A9CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GLDeepCopy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gao.GLDeepCopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB5AAF861F42E30800A9CBAC /* Build configuration list for PBXProject "GLDeepCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5AAFA01F42E30800A9CBAC /* Debug */,
+				EB5AAFA11F42E30800A9CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB5AAFA21F42E30800A9CBAC /* Build configuration list for PBXNativeTarget "GLDeepCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5AAFA31F42E30800A9CBAC /* Debug */,
+				EB5AAFA41F42E30800A9CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB5AAF831F42E30800A9CBAC /* Project object */;
+}
